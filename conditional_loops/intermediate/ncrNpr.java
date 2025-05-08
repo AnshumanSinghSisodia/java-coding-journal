@@ -13,6 +13,7 @@ public class ncrNpr {
         int np=npr(n,r);
         System.out.println("NPR: "+np);
         System.out.println("NCR: "+nc);
+        System.out.println("Hello World!");
     }
 
     private static int npr(int n, int r) {
