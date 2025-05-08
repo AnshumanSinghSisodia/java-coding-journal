@@ -9,10 +9,10 @@ public class ncrNpr {
         int n=sc.nextInt();
         int r=sc.nextInt();
         sc.close();
-        double ans =ncr(n,r);
+        double nc =ncr(n,r);
         int np=npr(n,r);
-        System.out.println(np);
-        System.out.println(ans);
+        System.out.println("NPR: "+np);
+        System.out.println("NCR: "+nc);
     }
 
     private static int npr(int n, int r) {
